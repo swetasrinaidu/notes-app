@@ -1,0 +1,38 @@
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    background-color: lightgrey;
+}
+.main-container{
+    height: 900px;
+    width: 600px;
+    margin:10px;
+    background-image:linear-gradient(to right,red,orange);
+    color:black;
+}
+.nav-bar button{
+    background-color: yellowgreen;
+    border:none;
+    width:100px;
+    padding-right: 10px;
+    margin:10px;
+    cursor: pointer;
+
+}
+.textarea,textarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    width:99%;
+    height: 100%;
+}
+.hidden{
+    color: green;
+} 
+.text{
+    background-color: purple;
+}
